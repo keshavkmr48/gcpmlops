@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "gcpmlopsregression"
+version = "0.0.1"
+description = "This is a package for end2end mlops on gcp for regression usecase."
+authors = ["keshavkmr48"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.3"
+numpy = "^2.1.2"
+google-cloud-aiplatform = "^1.71.1"
+vertexai = "^1.71.1"
+google-cloud-automl = "^2.14.1"
+google-cloud-api-gateway = "^1.10.1"
+google-cloud-api-keys = "^0.5.13"
+google-cloud-artifact-registry = "^1.13.0"
+google-cloud-bigquery = "^3.26.0"
+google-cloud-build = "^3.27.0"
+google-cloud-logging = "^3.11.3"
+google-cloud-monitoring = "^2.23.0"
+google-cloud-language = "^2.15.0"
+google-cloud-monitoring-dashboards = "^2.16.0"
+google-cloud-run = "^0.10.10"
+google-cloud-scheduler = "^2.14.0"
+google-cloud-vision = "^3.8.0"
+google-cloud-datacatalog = "^3.21.1"
+google-cloud-dataflow-client = "^0.8.13"
+google-cloud-dataform = "^0.5.13"
+google-cloud-dataproc = "^5.15.1"
+google-cloud-datastream = "^1.10.1"
+google-cloud-documentai = "^3.0.0"
+google-cloud-deploy = "^2.3.0"
+google-cloud-container = "^2.53.0"
+google-cloud-pubsub = "^2.26.1"
+google-cloud-workflows = "^1.15.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+flake8 = "^7.1.1"
+tox = "^4.23.2"
+autopep8 = "^2.3.1"
+ensure = "^1.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
