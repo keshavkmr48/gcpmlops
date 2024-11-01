@@ -1,0 +1,13 @@
+{
+    "name": "DevContainer_gcp_llm",
+    "dockerFile": "Dockerfile",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-python.python",
+        "esbenp.prettier-vscode"
+    ],
+    "postCreateCommand": "poetry install",
+    "remoteUser": "vscode" // Ensure this matches the user created in Dockerfile
+}
