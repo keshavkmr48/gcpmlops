@@ -6,5 +6,6 @@ images:
   - 'gcr.io/$PROJECT_ID/hello-world'
 
 options:
-  logging: NONE
-# kya ho raha hai bhai 
+  logging: CLOUD_LOGGING_ONLY
+
+serviceAccount: "gcpllmops@clv-03091991-vertexai.iam.gserviceaccount.com"
