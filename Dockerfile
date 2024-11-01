@@ -2,4 +2,4 @@
 FROM alpine:latest
 
 # Run a simple command
-CMD ["echo", "Hello, World! Build successful!"]
+CMD ["echo", "Hello, World ! Build successful!"]
