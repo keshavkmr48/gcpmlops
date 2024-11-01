@@ -7,5 +7,3 @@ images:
 
 options:
   logging: CLOUD_LOGGING_ONLY
-
-serviceAccount: "991170270785-compute@developer.gserviceaccount.com"
