@@ -8,4 +8,5 @@ images:
 options:
   logging: CLOUD_LOGGING_ONLY
 
+  
 serviceAccount: "gcpllmops@clv-03091991-vertexai.iam.gserviceaccount.com"
