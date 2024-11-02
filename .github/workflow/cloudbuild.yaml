@@ -6,7 +6,7 @@ images:
   - 'us-docker.pkg.dev/clv-03091991-vertexai/gcpllmops/hello-world'
 
 options:
-  logging: CLOUD_LOGGING_ONLY
+  logging: NONE
 
 
 serviceAccount: "gcpllmops@clv-03091991-vertexai.iam.gserviceaccount.com"
