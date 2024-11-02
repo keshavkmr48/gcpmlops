@@ -8,5 +8,3 @@ images:
 options:
   logging: NONE
 
-
-serviceAccount: "gcpllmops@clv-03091991-vertexai.iam.gserviceaccount.com"
